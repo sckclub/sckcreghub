@@ -1,0 +1,42 @@
+﻿/* PJM Mar 2015 CSS for SCKCReg application -- common elements */
+body
+{
+}
+        .divHeader
+        {
+            background: Navy;
+            visibility:visible;
+            display:inherit;
+        }
+        .lblHeaderMeet
+        {
+         color: Lime;
+         vertical-align: middle;
+         font-size:larger;
+         padding-left: 50px; 
+         }
+        .lblHeaderCoach
+        {
+         color: White;
+         float: right; 
+         vertical-align: middle;
+         font-size: larger;
+          padding-right: 50px;
+         } 
+         .divHeader
+         {
+           vertical-align: middle;
+           overflow:hidden;
+         }
+         #idHeaderIMG
+         {
+             float: left;
+         }
+         .divHeaderText 
+         {
+            vertical-align: middle; 
+            padding-top: 5px;
+         }
+         .cssNumber {text-align: right;}
+         .cssNumberTotals {text-align: right; font-weight: bold;}
+         .cssTextRight {text-align: right;}

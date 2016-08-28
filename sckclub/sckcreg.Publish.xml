@@ -1,0 +1,82 @@
+<publishData>
+  <publishTarget publishUrl="C:\Infoharvest\WebHarvest\UshiReports\projects\sckclub\">
+    <file relUrl="HomePage.aspx" publishTime="06/06/2014 18:13:56" />
+    <file relUrl="NAT15.aspx" publishTime="07/01/2015 00:19:18" />
+    <file relUrl="Default.aspx" publishTime="07/09/2016 22:37:36" />
+    <file relUrl="EventEntries.aspx" publishTime="06/02/2016 15:29:38" />
+    <file relUrl="TH16.aspx" publishTime="07/09/2016 17:23:15" />
+    <file relUrl="Reports_JR_Paddlers.aspx" publishTime="07/06/2015 03:58:17" />
+    <file relUrl="PaddlerEntriesByDistance.aspx" publishTime="05/30/2014 15:34:52" />
+    <file relUrl="Trials2015.aspx" publishTime="04/02/2015 08:49:27" />
+    <file relUrl="AllPaddlers.aspx" publishTime="06/29/2015 12:16:48" />
+    <file relUrl="TH14.aspx" publishTime="07/09/2016 17:23:18" />
+    <file relUrl="CMMWC14.aspx" publishTime="08/07/2014 10:29:48" />
+    <file relUrl="PaddlerEventsByPaddler.aspx" publishTime="07/09/2016 17:27:19" />
+    <file relUrl="Reports_AllEntries.aspx" publishTime="06/02/2015 16:54:34" />
+    <file relUrl="TeamEntries.aspx" publishTime="07/04/2016 18:21:04" />
+    <file relUrl="Reports_TeamInvoices.aspx" publishTime="06/23/2016 22:07:44" />
+    <file relUrl="NAT16.aspx" publishTime="07/09/2016 17:23:32" />
+    <file relUrl="MasterCanoe.aspx" publishTime="03/14/2015 13:38:46" />
+    <file relUrl="imgs/favicon.ico" publishTime="03/13/2015 14:56:56" />
+    <file relUrl="Manage_OrderofEvents.aspx" publishTime="08/09/2014 15:59:59" />
+    <file relUrl="TeamBoatEntry.aspx" publishTime="05/23/2016 16:00:26" />
+    <file relUrl="bin/sckreg.dll" publishTime="07/10/2016 22:07:33" />
+    <file relUrl="imgs/usack16.jpeg" publishTime="06/14/2014 07:51:57" />
+    <file relUrl="bin/sckreg.pdb" publishTime="07/10/2016 22:07:33" />
+    <file relUrl="Reports_JR_Entries.aspx" publishTime="04/03/2015 02:03:01" />
+    <file relUrl="TeamboatEntriesReport.aspx" publishTime="07/10/2016 20:55:15" />
+    <file relUrl="Reports_IndivPaddlers.aspx" publishTime="08/10/2014 12:55:26" />
+    <file relUrl="LPI2014Home.aspx" publishTime="06/15/2014 00:20:30" />
+    <file relUrl="TeamBoatEntry4.aspx" publishTime="05/31/2016 00:45:47" />
+    <file relUrl="TeamEntriesOverView.aspx" publishTime="06/28/2016 12:08:44" />
+    <file relUrl="AllEvents.aspx" publishTime="06/03/2016 00:27:39" />
+    <file relUrl="sckclub.css" publishTime="06/21/2016 23:51:21" />
+    <file relUrl="imgs/NAT2015_Logo_300w.png" publishTime="05/26/2015 23:25:11" />
+    <file relUrl="imgs/NAT16logo.gif" publishTime="06/03/2016 17:20:03" />
+    <file relUrl="DerCoaches.aspx" publishTime="07/01/2016 18:19:56" />
+    <file relUrl="EntriesPerPaddler.aspx" publishTime="06/27/2016 19:45:09" />
+    <file relUrl="bin/docs/2016TedHoukEntryFormv1.doc" publishTime="05/20/2016 23:05:11" />
+    <file relUrl="AllEventsByDistance.aspx" publishTime="05/30/2014 15:42:52" />
+    <file relUrl="sckclubReports.css" publishTime="06/02/2015 12:04:04" />
+    <file relUrl="imgs/2014CanoeMasters World Cup Logo.jpg" publishTime="07/28/2014 21:04:20" />
+    <file relUrl="imgs/customLogo.gif" publishTime="03/13/2015 14:56:50" />
+    <file relUrl="Reports.aspx" publishTime="07/10/2016 22:03:33" />
+    <file relUrl="Reports_JR_Events.aspx" publishTime="07/06/2015 01:05:50" />
+    <file relUrl="imgs/Canoe_300x161.png" publishTime="03/10/2015 23:45:22" />
+    <file relUrl="Events.aspx" publishTime="06/22/2016 00:53:37" />
+    <file relUrl="TH15.aspx" publishTime="07/09/2016 17:23:41" />
+    <file relUrl="Web.config" publishTime="03/09/2015 16:14:30" />
+    <file relUrl="Reports_EntriesByTeam.aspx" publishTime="07/06/2016 22:35:16" />
+    <file relUrl="Reports_JR_MISC.aspx" publishTime="07/06/2015 01:33:10" />
+    <file relUrl="Report_PaymentsPerTeam.aspx" publishTime="07/02/2016 07:45:55" />
+    <file relUrl="Paddlers.aspx" publishTime="07/01/2016 18:13:20" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Infoharvest\WebHarvest\Ushireport\sckcreg\Builds\">
+    <file relUrl="MasterCanoe.aspx" publishTime="08/10/2014 15:25:39" />
+    <file relUrl="Events.aspx" publishTime="08/01/2014 03:06:49" />
+    <file relUrl="LPI2014Home.aspx" publishTime="06/15/2014 00:20:30" />
+    <file relUrl="EventEntries.aspx" publishTime="05/30/2014 13:58:56" />
+    <file relUrl="AllEvents.aspx" publishTime="05/30/2014 13:48:39" />
+    <file relUrl="Web.config" publishTime="05/10/2014 18:30:49" />
+    <file relUrl="imgs/2014CanoeMasters World Cup Logo.jpg" publishTime="07/28/2014 21:04:20" />
+    <file relUrl="Paddlers.aspx" publishTime="06/15/2014 03:50:01" />
+    <file relUrl="bin/sckreg.dll" publishTime="08/10/2014 17:55:53" />
+    <file relUrl="bin/sckreg.pdb" publishTime="08/10/2014 17:55:53" />
+    <file relUrl="HomePage.aspx" publishTime="06/06/2014 18:13:56" />
+    <file relUrl="Reports_IndivPaddlers.aspx" publishTime="08/10/2014 12:55:26" />
+    <file relUrl="AllPaddlers.aspx" publishTime="05/30/2014 11:12:30" />
+    <file relUrl="EntriesPerPaddler.aspx" publishTime="08/10/2014 16:48:09" />
+    <file relUrl="TeamEntries.aspx" publishTime="06/20/2014 00:45:15" />
+    <file relUrl="PaddlerEventsByPaddler.aspx" publishTime="08/01/2014 03:08:21" />
+    <file relUrl="imgs/usack16.jpeg" publishTime="06/14/2014 07:51:57" />
+    <file relUrl="DerCoaches.aspx" publishTime="05/25/2014 05:11:55" />
+    <file relUrl="TeamEntriesOverView.aspx" publishTime="06/18/2014 00:58:34" />
+    <file relUrl="TeamboatEntriesReport.aspx" publishTime="06/15/2014 03:28:18" />
+    <file relUrl="AllEventsByDistance.aspx" publishTime="05/30/2014 15:42:52" />
+    <file relUrl="CMMWC14.aspx" publishTime="08/07/2014 10:29:48" />
+    <file relUrl="Default.aspx" publishTime="06/01/2014 00:12:53" />
+    <file relUrl="Manage_OrderofEvents.aspx" publishTime="08/09/2014 15:59:59" />
+    <file relUrl="Reports_AllEntries.aspx" publishTime="08/01/2014 11:22:11" />
+    <file relUrl="PaddlerEntriesByDistance.aspx" publishTime="05/30/2014 15:34:52" />
+  </publishTarget>
+</publishData>

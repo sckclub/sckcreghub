@@ -1,0 +1,5 @@
+C:\Documents and Settings\Philip Murphy\My Documents\Visual Studio 2008\Projects\sckclub\sckclub\bin\sckclub.dll
+C:\Documents and Settings\Philip Murphy\My Documents\Visual Studio 2008\Projects\sckclub\sckclub\bin\sckclub.pdb
+C:\Documents and Settings\Philip Murphy\My Documents\Visual Studio 2008\Projects\sckclub\sckclub\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Philip Murphy\My Documents\Visual Studio 2008\Projects\sckclub\sckclub\obj\Debug\sckclub.dll
+C:\Documents and Settings\Philip Murphy\My Documents\Visual Studio 2008\Projects\sckclub\sckclub\obj\Debug\sckclub.pdb

@@ -1,0 +1,411 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CFF7DB19-B551-4467-BA6D-7371D44BC988}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sckreg</RootNamespace>
+    <AssemblyName>sckreg</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AllEvents.aspx" />
+    <Content Include="AllEventsByDistance.aspx" />
+    <Content Include="AllPaddlers.aspx" />
+    <Content Include="CMMWC14.aspx" />
+    <Content Include="TH14.aspx" />
+    <Content Include="imgs\2014CanoeMasters World Cup Logo.jpg" />
+    <Content Include="imgs\Canoe_300x161.png" />
+    <Content Include="imgs\customLogo.gif" />
+    <Content Include="imgs\favicon.ico" />
+    <Content Include="imgs\NAT16logo.gif" />
+    <Content Include="imgs\NAT2015_Logo_300w.png" />
+    <Content Include="imgs\usack16.jpeg" />
+    <Content Include="NAT16.aspx" />
+    <Content Include="TeamBoatEntry4.aspx" />
+    <Content Include="TH16.aspx" />
+    <Content Include="LPI2014Home.aspx" />
+    <Content Include="DerCoaches.aspx" />
+    <Content Include="EventEntries.aspx" />
+    <Content Include="HomePage.aspx" />
+    <Content Include="Manage_OrderofEvents.aspx" />
+    <Content Include="MasterCanoe.aspx" />
+    <Content Include="NAT15.aspx" />
+    <Content Include="PaddlerEntriesByDistance.aspx" />
+    <Content Include="PaddlerEventsByPaddler.aspx" />
+    <Content Include="Paddlers.aspx" />
+    <Content Include="Reports.aspx" />
+    <Content Include="Reports_AllEntries.aspx" />
+    <Content Include="Reports_EntriesByTeam.aspx" />
+    <Content Include="Reports_IndivPaddlers.aspx" />
+    <Content Include="Reports_JR_Entries.aspx" />
+    <Content Include="Reports_JR_Events.aspx" />
+    <Content Include="Reports_JR_MISC.aspx" />
+    <Content Include="Reports_JR_Paddlers.aspx" />
+    <Content Include="Reports_TeamInvoices.aspx" />
+    <Content Include="Report_PaymentsPerTeam.aspx" />
+    <Content Include="sckclub.css" />
+    <Content Include="sckclubReports.css" />
+    <Content Include="TeamboatEntriesReport.aspx" />
+    <Content Include="TeamBoatEntry.aspx" />
+    <Content Include="TeamEntries.aspx" />
+    <Content Include="TeamEntriesOverView.aspx" />
+    <Content Include="TH15.aspx" />
+    <Content Include="Trials2015.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Events.aspx" />
+    <Content Include="EntriesPerPaddler.aspx" />
+    <Content Include="Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllEvents.aspx.cs">
+      <DependentUpon>AllEvents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllEvents.aspx.designer.cs">
+      <DependentUpon>AllEvents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllEventsByDistance.aspx.cs">
+      <DependentUpon>AllEventsByDistance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllEventsByDistance.aspx.designer.cs">
+      <DependentUpon>AllEventsByDistance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllPaddlers.aspx.cs">
+      <DependentUpon>AllPaddlers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllPaddlers.aspx.designer.cs">
+      <DependentUpon>AllPaddlers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clsSCKCREG.cs" />
+    <Compile Include="CMMWC14.aspx.cs">
+      <DependentUpon>CMMWC14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CMMWC14.aspx.designer.cs">
+      <DependentUpon>CMMWC14.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TH14.aspx.cs">
+      <DependentUpon>TH14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TH14.aspx.designer.cs">
+      <DependentUpon>TH14.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NAT16.aspx.cs">
+      <DependentUpon>NAT16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NAT16.aspx.designer.cs">
+      <DependentUpon>NAT16.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeamBoatEntry4.aspx.cs">
+      <DependentUpon>TeamBoatEntry4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeamBoatEntry4.aspx.designer.cs">
+      <DependentUpon>TeamBoatEntry4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TH16.aspx.cs">
+      <DependentUpon>TH16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TH16.aspx.designer.cs">
+      <DependentUpon>TH16.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LPI2014Home.aspx.cs">
+      <DependentUpon>LPI2014Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LPI2014Home.aspx.designer.cs">
+      <DependentUpon>LPI2014Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DerCoaches.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>DerCoaches.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DerCoaches.aspx.designer.cs">
+      <DependentUpon>DerCoaches.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EventEntries.aspx.cs">
+      <DependentUpon>EventEntries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventEntries.aspx.designer.cs">
+      <DependentUpon>EventEntries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_OrderofEvents.aspx.cs">
+      <DependentUpon>Manage_OrderofEvents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage_OrderofEvents.aspx.designer.cs">
+      <DependentUpon>Manage_OrderofEvents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterCanoe.aspx.cs">
+      <DependentUpon>MasterCanoe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterCanoe.aspx.designer.cs">
+      <DependentUpon>MasterCanoe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NAT15.aspx.cs">
+      <DependentUpon>NAT15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NAT15.aspx.designer.cs">
+      <DependentUpon>NAT15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaddlerEntriesByDistance.aspx.cs">
+      <DependentUpon>PaddlerEntriesByDistance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaddlerEntriesByDistance.aspx.designer.cs">
+      <DependentUpon>PaddlerEntriesByDistance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaddlerEventsByPaddler.aspx.cs">
+      <DependentUpon>PaddlerEventsByPaddler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaddlerEventsByPaddler.aspx.designer.cs">
+      <DependentUpon>PaddlerEventsByPaddler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paddlers.aspx.cs">
+      <DependentUpon>Paddlers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paddlers.aspx.designer.cs">
+      <DependentUpon>Paddlers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Events.aspx.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Events.aspx.designer.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EntriesPerPaddler.aspx.cs">
+      <DependentUpon>EntriesPerPaddler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EntriesPerPaddler.aspx.designer.cs">
+      <DependentUpon>EntriesPerPaddler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_AllEntries.aspx.cs">
+      <DependentUpon>Reports_AllEntries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports_AllEntries.aspx.designer.cs">
+      <DependentUpon>Reports_AllEntries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_EntriesByTeam.aspx.cs">
+      <DependentUpon>Reports_EntriesByTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports_EntriesByTeam.aspx.designer.cs">
+      <DependentUpon>Reports_EntriesByTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_IndivPaddlers.aspx.cs">
+      <DependentUpon>Reports_IndivPaddlers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports_IndivPaddlers.aspx.designer.cs">
+      <DependentUpon>Reports_IndivPaddlers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_JR_Entries.aspx.cs">
+      <DependentUpon>Reports_JR_Entries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports_JR_Entries.aspx.designer.cs">
+      <DependentUpon>Reports_JR_Entries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_JR_Events.aspx.cs">
+      <DependentUpon>Reports_JR_Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports_JR_Events.aspx.designer.cs">
+      <DependentUpon>Reports_JR_Events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_JR_MISC.aspx.cs">
+      <DependentUpon>Reports_JR_MISC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports_JR_MISC.aspx.designer.cs">
+      <DependentUpon>Reports_JR_MISC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_JR_Paddlers.aspx.cs">
+      <DependentUpon>Reports_JR_Paddlers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports_JR_Paddlers.aspx.designer.cs">
+      <DependentUpon>Reports_JR_Paddlers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports_TeamInvoices.aspx.cs">
+      <DependentUpon>Reports_TeamInvoices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports_TeamInvoices.aspx.designer.cs">
+      <DependentUpon>Reports_TeamInvoices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report_PaymentsPerTeam.aspx.cs">
+      <DependentUpon>Report_PaymentsPerTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report_PaymentsPerTeam.aspx.designer.cs">
+      <DependentUpon>Report_PaymentsPerTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeamboatEntriesReport.aspx.cs">
+      <DependentUpon>TeamboatEntriesReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeamboatEntriesReport.aspx.designer.cs">
+      <DependentUpon>TeamboatEntriesReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeamBoatEntry.aspx.cs">
+      <DependentUpon>TeamBoatEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeamBoatEntry.aspx.designer.cs">
+      <DependentUpon>TeamBoatEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeamEntries.aspx.cs">
+      <DependentUpon>TeamEntries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeamEntries.aspx.designer.cs">
+      <DependentUpon>TeamEntries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeamEntriesOverView.aspx.cs">
+      <DependentUpon>TeamEntriesOverView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeamEntriesOverView.aspx.designer.cs">
+      <DependentUpon>TeamEntriesOverView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TH15.aspx.cs">
+      <DependentUpon>TH15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TH15.aspx.designer.cs">
+      <DependentUpon>TH15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Trials2015.aspx.cs">
+      <DependentUpon>Trials2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Trials2015.aspx.designer.cs">
+      <DependentUpon>Trials2015.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docs\2015TedHoukTeamEntryForm.doc" />
+    <None Include="docs\2015USACKWaiver.pdf" />
+    <None Include="docs\2016TedHoukEntryFormv1.doc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="imgs\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58502</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

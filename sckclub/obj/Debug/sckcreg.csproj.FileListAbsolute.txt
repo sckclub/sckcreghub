@@ -1,0 +1,11 @@
+C:\Documents and Settings\Philip Murphy\My Documents\Visual Studio 2008\Projects\sckclub\sckclub\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Philip Murphy\My Documents\Visual Studio 2008\Projects\sckclub\sckclub\bin\sckreg.dll
+C:\Documents and Settings\Philip Murphy\My Documents\Visual Studio 2008\Projects\sckclub\sckclub\bin\sckreg.pdb
+C:\Documents and Settings\Philip Murphy\My Documents\Visual Studio 2008\Projects\sckclub\sckclub\obj\Debug\sckreg.dll
+C:\Documents and Settings\Philip Murphy\My Documents\Visual Studio 2008\Projects\sckclub\sckclub\obj\Debug\sckreg.pdb
+C:\Users\philipm\Documents\Visual Studio 2008\Projects\sckclub\sckclub\bin\sckreg.dll
+C:\Users\philipm\Documents\Visual Studio 2008\Projects\sckclub\sckclub\bin\sckreg.pdb
+C:\Users\philipm\Documents\Visual Studio 2008\Projects\sckclub\sckclub\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\philipm\Documents\Visual Studio 2008\Projects\sckclub\sckclub\obj\Debug\sckreg.dll
+C:\Users\philipm\Documents\Visual Studio 2008\Projects\sckclub\sckclub\obj\Debug\sckreg.pdb
+C:\Users\philipm\Documents\Visual Studio 2008\Projects\sckclub\sckclub\bin\docs\2016TedHoukEntryFormv1.doc
